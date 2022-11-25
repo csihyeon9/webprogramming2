@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.scene{
+    background-image: url(img/car-7385281.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Sono', sans-serif;
+    font-weight: 200;
+    
+}
+
+/* .scene header{
+    max-width: 50%;
+    border: 5px solid yellow;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 400;
+} */
+
+.scene header h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    max-width: 50%;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.scene header h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.scene header h1::after{
+    content: '';
+    border-bottom: 1px solid white;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.scene.one{
+    background-image: url(img/car-7385281.jpg);
+}
+
+
+.scene.two{
+    background-image: url(img/city-7576853.jpg);
+}
+
+
+.scene.three{
+    background-image: url(img/lightning-7389933.jpg);
+}
